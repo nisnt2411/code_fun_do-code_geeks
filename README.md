@@ -49,7 +49,7 @@ disasters
  
  6. Taking the weather information and update the areas which are more pronend to the flood so that some strict action could be 
  
- taken in advance.
+     taken in advance.
  
 *********************************************************************************************************************************
 
