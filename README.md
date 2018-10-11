@@ -1,8 +1,8 @@
- ************************************************code fun do project idea********************************************************
+ **code fun do project idea**
  
  Here is the projct idea of our team (code_geeks) for code fun do++ 2018.
  
- ***************************************************Project Theme****************************************************************
+ **Project Theme**
  
  Effective Rescue of people and management of limited resources during a flood.
  
