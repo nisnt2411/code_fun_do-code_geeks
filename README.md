@@ -43,11 +43,11 @@ actions.
 
 maximize their output.
 
-5. At last the web app will contain all the important links ,blogs and contact numbers which could be needed during the disaster
+6. At last the web app will contain all the important links ,blogs and contact numbers which could be needed during the disaster
  
  if time permits we will definiely add features like:)
  
- 6. Taking the weather information and updating the areas which are more proned to the flood so that some strict action could be 
+ * Taking the weather information and updating the areas which are more proned to the flood so that some strict action could be 
  
  taken in advance.
  
