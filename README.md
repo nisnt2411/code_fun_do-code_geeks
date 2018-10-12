@@ -19,11 +19,11 @@ Following the same idea our team will be building a web app which has a number o
 
 the voulunteers and government to make some quick and targeted actions. Here are some of the features we will be working on :)
 
-1. Accepting donations which will include - monetary help, clothing , blood donations , sanitary and other objects. 
+* Accepting donations which will include - monetary help, clothing , blood donations , sanitary and other objects. 
 
-2. A console to register lost and found people during the disaster.
+* A console to register lost and found people during the disaster.
 
-3. One of the biggest issue during the rescue operation is that the number of volunteer distrbution is uneven , i.e during a 
+* One of the biggest issue during the rescue operation is that the number of volunteer distrbution is uneven , i.e during a 
 
 particular day and time number of volunteer is maximum and the next moment we are out of them. To resolve this issue we will be 
 
@@ -31,7 +31,7 @@ registering volunteers and also there availibility date and time and finally usi
 
 output.
 
-4. Another big issue faced by the rescuers is that they din't know the frequecy of victims in a particualr area which kind of 
+* Another big issue faced by the rescuers is that they din't know the frequecy of victims in a particualr area which kind of 
 
 resist them to give their full service and to resolve this we will use a feature where people can register themselves, their 
 
@@ -39,11 +39,11 @@ location and also the approx number of people stuck in that area which could be 
 
 actions.
 
-5. our web app will act as a common platform for all the relief camps and NGOs and using the available data they could also 
+* our web app will act as a common platform for all the relief camps and NGOs and using the available data they could also 
 
 maximize their output.
 
-6. At last the web app will contain all the important links ,blogs and contact numbers which could be needed during the disaster
+* At last the web app will contain all the important links ,blogs and contact numbers which could be needed during the disaster
  
  if time permits we will definiely add features like:)
  
