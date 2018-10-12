@@ -42,12 +42,12 @@ actions.
 5. our web app will act as a common platform for all the relief camps and NGOs and using the available data they could also 
 
 maximize their output.
-disasters
+
 5. At last the web app will contain all the important links ,blogs and contact numbers which could be needed during the disaster
  
  if time permits we will definiely add features like:)
  
- 6. Taking the weather information and update the areas which are more proned to the flood so that some strict action could be 
+ 6. Taking the weather information and updating the areas which are more proned to the flood so that some strict action could be 
  
  taken in advance.
  
