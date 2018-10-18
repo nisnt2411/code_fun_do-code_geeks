@@ -33,9 +33,9 @@ def donation():
 def volunteer():
     return render_template('volunteer.html')
 
-@app.route("/lost_found")
-def lost_found():
-    return render_template('lost_found.html')
+@app.route("/lostfound")
+def lostfound():
+    return render_template('lostfound.html')
 
 @app.route("/status")
 def status():
@@ -48,4 +48,13 @@ def blog():
 @app.route("/important")
 def important():
     return render_template('important.html')
+
+@app.route("/request")
+def request():
+    return render_template('request.html')
+
+@app.route("/finder")
+def finder():
+    return render_template('finder.html')
+
 app.run(debug=True)
