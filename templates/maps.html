@@ -1,0 +1,230 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="Description" content="For effective collaboration and communications between authorities, volunteers and public"><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta property="og:title" content="Kerala Rescue"><meta property="og:site_name" content="Kerala Rescue"><meta property="og:url" content="https://www.keralarescue.in/"><meta property="og:description" content="Help out those affected by the Kerala floods by donating or volunteering"><meta property="og:type" content="website"><meta property="og:image" content="/static/images/keralarescue.c9281ffebbe4.png"><title>Kerala Rescue</title><style type="text/css">
+    body, html, #place_modal_map {
+      height: 100%;
+      margin: 0;
+    }
+    #place_modal_map .centerMarker{
+      position:absolute;
+      /*url of the marker*/
+      background:url(http://maps.gstatic.com/mapfiles/markers2/marker.png) no-repeat;
+      /*center the marker*/
+      top:50%;left:50%;
+      z-index:1;
+      /*fix offset when needed*/
+      margin-left:-10px;
+      margin-top:-34px;
+      /*size of the image*/
+      height:34px;
+      width:20px;
+      cursor:pointer;
+    }
+    #place_modal_map{
+        height: 45vh;
+    }
+    .pac-container{
+      z-index: 10000 !important;
+    }
+  </style><link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/static/css/style.e8a5dee445cc.css"/><link rel="shortcut icon" href="/static/images/favicon.d855f06fa352.ico" type="image/x-icon"><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css"></head><body class=""><nav class="navbar"><div class="col-sm-4 col-xs-4"><a href="/"><img src="/static/images/kerala-government.b6394c755c05.jpg" class="nav-logo" style="float:left"></a></div><div class="col-sm-4 col-xs-4 text-center"><a class="brand-logo" href="/">keralarescue</a></div><div class="col-sm-4 col-xs-4"><a href="http://www.itmission.kerala.gov.in/"><img src="/static/images/it-mission.898f8b265cdb.png" class="nav-logo" style="float: right;"></a><a href="/ieee/"><img src="/static/images/ieeelogo.639f97ebd5b1.png" class="nav-logo" style="float: right;margin-right: 6px;"></a></div></nav><div class="container"><div id="google_translate_element"></div><script type="text/javascript">
+  function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, multilanguagePage: true}, 'google_translate_element');
+  }
+  </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><!--Navigation Breadcrumb--><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item active" aria-current="page">Request For Help</li></ol></nav><h1 class="text-center">Request For Help</h1><h2 class="text-center">സഹായം അഭ്യര്‍ഥിക്കാന്‍</h2><form method="post"  class="simple-form"><input type="hidden" name="csrfmiddlewaretoken" value="Z5RXETiHIEsgZYZOeqrWt5fP4ca6mRN2TF9H9mEYAWRrY7BqRnuTgZHJpYBrviHI"><div class="form-group"><label class="control-label" for="id_district">District - ജില്ല</label><select name="district" class="form-control" title="" required id="id_district"><option value="" selected>---------</option><option value="alp">Alappuzha - ആലപ്പുഴ</option><option value="ekm">Ernakulam - എറണാകുളം</option><option value="idk">Idukki - ഇടുക്കി</option><option value="knr">Kannur - കണ്ണൂർ</option><option value="ksr">Kasaragod - കാസർഗോഡ്</option><option value="kol">Kollam - കൊല്ലം</option><option value="ktm">Kottayam - കോട്ടയം</option><option value="koz">Kozhikode - കോഴിക്കോട്</option><option value="mpm">Malappuram - മലപ്പുറം</option><option value="pkd">Palakkad - പാലക്കാട്</option><option value="ptm">Pathanamthitta - പത്തനംതിട്ട</option><option value="tvm">Thiruvananthapuram - തിരുവനന്തപുരം</option><option value="tcr">Thrissur - തൃശ്ശൂർ</option><option value="wnd">Wayanad - വയനാട്</option></select></div><div class="form-group"><label class="control-label" for="id_location">Location - സ്ഥലം</label><input type="text" name="location" maxlength="500" class="form-control" placeholder="Location - സ്ഥലം" title="" required id="id_location"></div><div class="form-group"><label class="control-label" for="id_requestee">Requestee - അപേക്ഷകന്‍റെ പേര്</label><input type="text" name="requestee" maxlength="100" class="form-control" placeholder="Requestee - അപേക്ഷകന്‍റെ പേര്" title="" required id="id_requestee"></div><div class="form-group"><label class="control-label" for="id_requestee_phone">Requestee Phone - അപേക്ഷകന്‍റെ ഫോണ്‍ നമ്പര്‍</label><input type="text" name="requestee_phone" maxlength="14" class="form-control" placeholder="Requestee Phone - അപേക്ഷകന്‍റെ ഫോണ്‍ നമ്പര്‍" title="" required id="id_requestee_phone"></div><div class="form-group"><div class="checkbox"><label for="id_is_request_for_others"><input type="checkbox" name="is_request_for_others" class="" id="id_is_request_for_others"> Requesting for others - മറ്റൊരാൾക്ക് വേണ്ടി അപേക്ഷിക്കുന്നു </label></div></div><div class="form-group"><label class="control-label" for="id_latlng">GPS Coordinates - GPS നിർദ്ദേശാങ്കങ്ങൾ </label><input type="text" name="latlng" maxlength="100" class="form-control" placeholder="GPS Coordinates - GPS നിർദ്ദേശാങ്കങ്ങൾ " title="" id="id_latlng"></div><div class="form-group"><label class="control-label" for="id_latlng_accuracy">GPS Accuracy - GPS കൃത്യത </label><input type="text" name="latlng_accuracy" maxlength="100" class="form-control" placeholder="GPS Accuracy - GPS കൃത്യത " title="" id="id_latlng_accuracy"></div><div class="form-group"><div class="checkbox"><label for="id_needrescue"><input type="checkbox" name="needrescue" class="" id="id_needrescue"> Need rescue - രക്ഷാപ്രവർത്തനം ആവശ്യമുണ്ട്</label></div></div><div class="form-group"><label class="control-label" for="id_detailrescue">Details for rescue action - രക്ഷാപ്രവർത്തനം വിവരങ്ങള്</label><input type="text" name="detailrescue" maxlength="250" class="form-control" placeholder="Details for rescue action - രക്ഷാപ്രവർത്തനം വിവരങ്ങള്" title="" id="id_detailrescue"></div><div class="form-group"><div class="checkbox"><label for="id_needwater"><input type="checkbox" name="needwater" class="" id="id_needwater"> Water - വെള്ളം</label></div></div><div class="form-group"><label class="control-label" for="id_detailwater">Details for required water - ആവശ്യമായ വെള്ളത്തിന്‍റെ വിവരങ്ങള്‍</label><input type="text" name="detailwater" maxlength="250" class="form-control" placeholder="Details for required water - ആവശ്യമായ വെള്ളത്തിന്‍റെ വിവരങ്ങള്‍" title="" id="id_detailwater"></div><div class="form-group"><div class="checkbox"><label for="id_needfood"><input type="checkbox" name="needfood" class="" id="id_needfood"> Food - ഭക്ഷണം</label></div></div><div class="form-group"><label class="control-label" for="id_detailfood">Details for required food - ആവശ്യമായ ഭക്ഷണത്തിന്‍റെ വിവരങ്ങള്‍</label><input type="text" name="detailfood" maxlength="250" class="form-control" placeholder="Details for required food - ആവശ്യമായ ഭക്ഷണത്തിന്‍റെ വിവരങ്ങള്‍" title="" id="id_detailfood"></div><div class="form-group"><div class="checkbox"><label for="id_needcloth"><input type="checkbox" name="needcloth" class="" id="id_needcloth"> Clothing - വസ്ത്രം</label></div></div><div class="form-group"><label class="control-label" for="id_detailcloth">Details for required clothing - ആവശ്യമായ വസ്ത്രത്തിന്‍റെ വിവരങ്ങള്‍</label><input type="text" name="detailcloth" maxlength="250" class="form-control" placeholder="Details for required clothing - ആവശ്യമായ വസ്ത്രത്തിന്‍റെ വിവരങ്ങള്‍" title="" id="id_detailcloth"></div><div class="form-group"><div class="checkbox"><label for="id_needmed"><input type="checkbox" name="needmed" class="" id="id_needmed"> Medicine - മരുന്നുകള്‍</label></div></div><div class="form-group"><label class="control-label" for="id_detailmed">Details for required medicine - ആവശ്യമായ മരുന്നിന്‍റെ  വിവരങ്ങള്‍</label><input type="text" name="detailmed" maxlength="250" class="form-control" placeholder="Details for required medicine - ആവശ്യമായ മരുന്നിന്‍റെ  വിവരങ്ങള്‍" title="" id="id_detailmed"></div><div class="form-group"><div class="checkbox"><label for="id_needkit_util"><input type="checkbox" name="needkit_util" class="" id="id_needkit_util"> Kitchen utensil - അടുക്കള സാമഗ്രികള്‍</label></div></div><div class="form-group"><label class="control-label" for="id_detailkit_util">Details for required kitchen utensil - ആവശ്യമായ അടുക്കള സാമഗ്രികള്‍</label><input type="text" name="detailkit_util" maxlength="250" class="form-control" placeholder="Details for required kitchen utensil - ആവശ്യമായ അടുക്കള സാമഗ്രികള്‍" title="" id="id_detailkit_util"></div><div class="form-group"><div class="checkbox"><label for="id_needtoilet"><input type="checkbox" name="needtoilet" class="" id="id_needtoilet"> Toiletries - ശുചീകരണ സാമഗ്രികള്‍ </label></div></div><div class="form-group"><label class="control-label" for="id_detailtoilet">Details for required toiletries - ആവശ്യമായ  ശുചീകരണ സാമഗ്രികള്‍</label><input type="text" name="detailtoilet" maxlength="250" class="form-control" placeholder="Details for required toiletries - ആവശ്യമായ  ശുചീകരണ സാമഗ്രികള്‍" title="" id="id_detailtoilet"></div><div class="form-group"><label class="control-label" for="id_needothers">Other needs - മറ്റു ആവശ്യങ്ങള്‍</label><input type="text" name="needothers" maxlength="500" class="form-control" placeholder="Other needs - മറ്റു ആവശ്യങ്ങള്‍" title="" id="id_needothers"></div><div class="form-group"><button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-star"></span> Submit
+  </button></div></form><!-- Instruction Modal --><div id="instructionModal" class="modal  fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" ><div class="modal-dialog" style="background: white"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 id="myModalLabel">Allow Location - നിങ്ങളുടെ സ്ഥലം കൊടുക്കുക </h3></div><div class="modal-body">
+        നിങ്ങളുടെ സ്ഥലം നൽകുന്നതെങ്ങനെ<br><br>
+        1. കൂടുതൽ കൃത്യതക്കായി ആദ്യം നിങ്ങളുടെ ഫോണിലെ GPS  ഓൺ ചെയുക.<br>
+        2. നിങ്ങളുടെ ബ്രൗസർ <b>"www.keralarescue.in wants to know your location"</b> എന്ന ഒരു സന്ദേശം കാണിക്കും<br>
+        3. സന്ദേശത്തിൽ <b>Allow</b> തിരഞ്ഞെടുക്കുക
+        <br><br>
+        How to allow location access<br><br>
+        1. For more accuracy, turn on your GPS firstly<br>
+        2. Your browser will show a message <b>"www.keralarescue.in wants to know your location"</b><br>
+        3. Choose the <b>Allow</b> option.
+      </div><div class="modal-footer"><button class="btn" data-dismiss="modal" id="modal_ok_button" aria-hidden="true">Ok</button></div></div></div><!-- PlacePicker modal --><div id="place_picker_modal" class="modal  fade" role="dialog" aria-labelledby="place_picker_modal_label" aria-hidden="true" data-keyboard="false" data-backdrop="static" ><div class="modal-dialog" style="background: white"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 id="place_picker_modal_label">Select Location - നിങ്ങളുടെ സ്ഥലം കൊടുക്കുക </h3></div><div class="modal-body" id="placePickerBody"><label>Search your location</label><input name="auto-complete-location" type="text" class="textbox controls form-control" placeholder="Example: Thrissur" title="" id="inp_location_search"><label> or enter comma seperated GPS coordinates: </label><div class="input-group"><input type="text" class="form-control" id="manual_coordinates" placeholder="Example: 10.5276,76.2144"><span class="input-group-btn"><button id="load_coordinates_button" class="btn btn-primary">Load</button></span></div><!-- <input type="text" class="form-control" id="manual_coordinates"><button id="load_coordinates_button" class="btn btn-primary">Save</button> --><br><br><div id="place_modal_map"></div></div><div class="modal-footer"><button class="btn btn-success" data-dismiss="modal" id="modal_ok_button" aria-hidden="true">Done</button></div></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript">
+  try {
+    var modalMap;
+    window.addEventListener('load', checkVisibility, false);
+    var checkboxes = document.querySelectorAll("input[type=checkbox]");
+    for(var i=0; i< checkboxes.length; i++) {
+      checkboxes[i].addEventListener("change",checkVisibility);
+    }
+
+    function checkVisibility(){
+      var formgroups = document.querySelectorAll(".form-group");
+      Array.prototype.forEach.call(formgroups, function(el, i){
+        var checkbox = el.querySelectorAll(".checkbox");
+        if(checkbox.length > 0){
+          var checkboxElem = el.querySelectorAll("input")[0];
+          if(checkboxElem.id === "id_is_request_for_others" ){
+          }
+          else if(checkboxElem.checked){
+            formgroups[i+1].style.display = "block";
+          }
+          else{
+            formgroups[i+1].style.display = "none";
+          }
+        }
+      });
+
+    }
+  }
+  catch(err) {
+    console.log("Your browser does not allow some javascript programs.\nError Message : " + err.message)
+  }
+
+  window.onload = function(){
+    initializeModalMap(10.5276, 76.2144, 7);
+    loadPlacePicker();
+    $("#id_requestee_phone").attr('type', 'number');
+    var gpsField = document.getElementById('id_latlng');
+    var gpsAccuracyField = document.getElementById('id_latlng_accuracy');
+    // GPS Field is not editable via text.
+    gpsField.readOnly = true;
+    gpsAccuracyField.readOnly = true;
+    // Collect accuracy, but don't display it to user.
+    $(gpsAccuracyField).parent().hide();
+    $(gpsField).click(showLocationPopup);
+
+    var options = {
+      enableHighAccuracy: true
+    };
+
+    var success = function(pos) {
+      var crd = pos.coords;
+        gpsField.value = crd.latitude + ',' + crd.longitude;
+        gpsAccuracyField.value = crd.accuracy + ' Meters';
+        refreshMap(crd.latitude, crd.longitude, 14);
+        displayAddress(crd.latitude, crd.longitude);
+    }
+
+    var error = function(err) {
+      console.warn(`ERROR(${err.code}): ${err.message}`);
+      showLocationPopup();
+    }
+
+    $('#instructionModal').on('hidden.bs.modal', function (e) {
+      navigator.geolocation.getCurrentPosition(success, error, options);
+    });
+
+    $('#instructionModal').modal('show');
+
+    $('#load_coordinates_button').click(loadManualGps);
+    $('#manual_coordinates').keypress(function (e) {
+      if (e.which === 13) {
+        loadManualGps();
+      }
+    });
+
+    // hiding dev message on form!
+    $('#id_is_request_for_others').parent().parent().next().hide();
+    $('#place_picker_modal').on('hidden.bs.modal', function (e) {
+      var latLng = $('#id_latlng').val().split(',');
+      $('#id_latlng_accuracy').val('5 Meters');
+      displayAddress(latLng[0].trim(), latLng[1].trim());
+    });
+  }
+
+  $('#location-manually').on('click', function(event){
+    event.preventDefault();
+  });
+
+  $('#id_is_request_for_others').on('change', function(){
+    if($(this).is(':checked')){
+      $('#pac-input').attr('required', 'required');
+      showLocationPopup();
+    }
+    else{
+      $('#pac-input').removeAttr('required');
+    }
+  });
+
+  var showLocationPopup = function(coords) {
+    $('#place_picker_modal').modal('show');
+  }
+
+  function initializeModalMap(lat, lng, zoom) {
+    var mapOptions = {
+      zoom: zoom || 14,
+      center: new google.maps.LatLng(lat, lng),
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      fullscreenControl: false,
+      gestureHandling: 'greedy'
+    };
+    modalMap = new google.maps.Map(document.getElementById('place_modal_map'),
+      mapOptions);
+    google.maps.event.addListener(modalMap,'center_changed', function() {
+      $('#id_latlng').val(modalMap.getCenter().lat() + ',' +  modalMap.getCenter().lng());
+      $('#manual_coordinates').val(modalMap.getCenter().lat() + ',' +  modalMap.getCenter().lng());
+    });
+    $('<div/>').addClass('centerMarker').appendTo(modalMap.getDiv())
+      //do something onclick
+      .click(function() {
+        var that = $(this);
+        if (!that.data('win')) {
+          that.data('win', new google.maps.InfoWindow({
+            content: 'this is the center'
+          }));
+          that.data('win').bindTo('position', modalMap, 'center');
+        }
+        that.data('win').open(modalMap);
+      });
+  }
+  function refreshMap(lat, lng, zoom){
+    var mapOptions = {
+      zoom: zoom,
+      center: new google.maps.LatLng(lat, lng)
+    };
+    modalMap.setOptions(mapOptions);
+  }
+
+  function displayAddress(lat, lng) {
+    $.get('https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=' + lat + '&lon=' + lng + '&zoom=18&addressdetails=1')
+          .done(function(response) {
+            if($('#id_latlng_display').length === 0){
+              var inputElem = $('<input class="form-control" id="id_latlng_display" readonly="true">');
+              $('#id_latlng').before(inputElem);
+              $('#id_latlng').hide();
+              inputElem.click(showLocationPopup);
+            }
+            $('#id_latlng_display').val(response.display_name);
+          })
+          .fail(function(err){
+            console.log(err);
+          });
+  }
+
+  function loadManualGps() {
+    var str = $('#manual_coordinates').val();
+    var latLng = $('#manual_coordinates').val().split(',');
+    if(latLng.length === 2 && !isNaN(latLng[0]) && !isNaN(latLng[1])){
+      refreshMap(latLng[0].trim(), latLng[1].trim(), 14);
+      displayAddress(latLng[0].trim(), latLng[1].trim());
+      $('#id_latlng').val(latLng);
+      $('#id_latlng_accuracy').val('5 Meters');
+    }
+    else{
+      alert('Invalid GPS location, enter only comma seperated decimal coordinates!\n\nEg: 10.5276,76.2144');
+    }
+    $('#inp_location_search').val('(Manually selected)');
+  }
+
+  function loadPlacePicker(){
+    var inputElem = document.getElementById('inp_location_search');
+    var autocomplete = new google.maps.places.Autocomplete(inputElem);
+    autocomplete.setFields(['address_components', 'geometry', 'icon', 'name']);
+    autocomplete.addListener('place_changed', function() {
+      var place = autocomplete.getPlace();
+      var lat = place.geometry.location.lat();
+      var lon = place.geometry.location.lng();
+      refreshMap(lat, lon, 14);
+    });
+
+  }
+
+  </script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdPKYd4vwgQY-OmF0Vn22wJu0EcDyi1MQ&libraries=places"  async defer></script></div><footer class="footer"><div class="container text-center"><a href="/disclaimer/" style="font-weight:bold">Disclaimer</a><span>&nbsp;|&nbsp;</span><a href="https://github.com/IEEEKeralaSection/rescuekerala/" target="_blank">GitHub</a><br /><br /><span>
+        നിങ്ങളുടെ എല്ലാ ആരോഗ്യസംബന്ധ സംശയങ്ങൾക്കും വിളിക്കാം ടോൾ ഫ്രീ നമ്പർ <strong><a href="tel:18001231454">1800 123 1454</a></strong><br />
+        Call toll free number <strong><a href="tel:18001231454">1800 123 1454</a></strong> for all your health related questions.<br />
+        24x7 Helpline Call Centre, Disaster Control Unit, Directorate of Health Services, Government of Kerala.<br /></span></div></footer><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"></script><!-- This site was developed under IEEE by
+    Biswas - https://biswaz.github.io/
+    and
+    Shameel Kadannamanna - https://shameelsadaka.github.io/
+  --></body></html>
