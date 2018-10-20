@@ -90,9 +90,9 @@ def check_flask():
    with os.scandir(HOME_SITE) as siteRoot:
        for entry in siteRoot:
            if entry.is_file():
-               if entry.name == 'main.py':
+               if entry.name == 'application.py':
                    print("found flask app")
-                   return "main:app"
+                   return "application:app"
    return None
 
 def start_server():
